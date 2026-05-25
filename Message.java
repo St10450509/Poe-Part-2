@@ -307,7 +307,6 @@ public class Message {
             }
         }
 
-        //ASK HOW MANY MESSAGES TO SEND THIS SESSION
         System.out.print("\nHow many messages would you like to send? ");
         int numMessages = 0;
         try {
