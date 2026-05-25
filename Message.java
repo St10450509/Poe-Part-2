@@ -223,7 +223,7 @@ public class Message {
 
             switch (welcome) {
                 case 1:
-                    //REGISTRATION
+                    //REGISTRATION - Input information
                     System.out.println(" REGISTRATION ");
 
                     System.out.print("First Name: ");
