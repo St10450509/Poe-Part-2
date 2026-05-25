@@ -9,7 +9,7 @@ import java.io.IOException;
 
 public class Message {
 
-    //LOGIN CLASS//
+    //LOGIN CLASS
     static class Login {
         private String firstName;
         private String lastName;
@@ -41,8 +41,6 @@ public class Message {
         }
 
         //CHECK CELL NUMBER - must start with +27 and be exactly 12 characters//
-        //REGEX SOURCED AND ADAPTED FROM://
-        //https://www.baeldung.com/java-regex-validate-phone-numbers//
         public boolean checkCellPhoneNumber() {
             return cellPhoneNumber.matches("^\\+27\\d{9}$");
         }
