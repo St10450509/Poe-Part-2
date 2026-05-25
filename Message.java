@@ -245,7 +245,7 @@ public class Message {
                         }
                     }
 
-                    // keep asking until password is valid
+                    // keep asking user until password is valid
                     String regPassword;
                     while (true) {
                         System.out.print("Password: ");
